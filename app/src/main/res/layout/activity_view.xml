@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.view">
+
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="id"
+        android:fontFamily="sans-serif-black"
+        android:textSize="@dimen/_20sdp" />
+
+    <TextView
+        android:id="@+id/employeename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="employee name"
+        android:fontFamily="sans-serif-black"
+        android:textSize="@dimen/_20sdp" />
+    <TextView
+        android:id="@+id/employeesalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="employee salary"
+        android:fontFamily="sans-serif-black"
+        android:textSize="@dimen/_20sdp" />
+    <TextView
+        android:id="@+id/employeeage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="employee age"
+        android:fontFamily="sans-serif-black"
+        android:textSize="@dimen/_20sdp" />
+</LinearLayout>
